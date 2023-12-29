@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "buildApp",
+    "name": "first build app",
     "slug": "buildApp",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -15,16 +15,25 @@
       "**/*"
     ],
     "ios": {
+      "buildNumber": "1.0.0",
       "supportsTablet": true
     },
     "android": {
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.alyasohret.buildApp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0d4a3ff8-c772-472d-8ae7-e779f6c1404a"
+      }
+    },
+    "owner": "alya-sohret"
   }
 }
